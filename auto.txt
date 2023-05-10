@@ -1,0 +1,14 @@
+auto
+________________
+
+id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE-NOT NULL) AUTO_INCREMENT
+marca - VARCHAR(20) - NOT NULL
+modello - VARCHAR(30) - NOT NULL
+anno - YEAR - NOT NULL
+chilometraggio - INT - UNSIGNED - NOT NULL
+carburante - VARCHAR(10) - NOT NULL
+potenza - INT - UNSIGNED - NOT NULL
+cambio - VARCHAR(10) - NOT NULL
+prezzo - DECIMAL(8, 2) - NOT NULL
+sconto - DECIMAL(4, 2)
+descrizione - TEXT
